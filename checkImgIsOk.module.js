@@ -11,8 +11,8 @@ const memo = {};
 
 /**
  *
- * @param {*} imgSrc
- * @param {*} param1
+ * @param {*} imgSrc====>图片的url
+ * @param {*} param1====>是否开启记忆功能
  * @returns 
  */
 function checkImgIsOk(imgSrc, { useMemo = true } = {}) {
